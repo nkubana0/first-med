@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: Poppins;
+}
+
+.container {
+  padding-block: 20px;
+  padding-inline: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+header nav ul li a {
+  color: black;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  gap: 20px;
+}
+.hero .logo img {
+  width: 412px;
+  height: 88px;
+}
+.hero .text {
+  width: 740px;
+  text-align: center;
+}
+.hero .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 50px;
+}
+.hero .buttons .appointment {
+  background-color: #ed215e;
+  padding: 24px 56px 24px 56px;
+  height: 72px;
+  border: 1px solid #ed215e;
+  border-radius: 8px;
+  width: 310px;
+  color: white;
+}
+.hero .buttons .pay {
+  background-color: white;
+  padding: 24px 96px 24px 96px;
+  height: 72px;
+  border: 1px solid #ed215e;
+  border-radius: 8px;
+  color: #ed215e;
+}
+
+.visit-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: rgb(255, 247, 249);
+}
+.visit-us h1 {
+  color: #ed215e;
+  font-size: 48px;
+  font-weight: 600;
+}
+.visit-us .visit-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.visit-us .visit-container .visit-text {
+  width: 594px;
+  border-left: 3px solid rgb(237, 33, 94);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.visit-us .visit-container .visit-text h2 {
+  padding-left: 20px;
+}
+.visit-us .visit-container .visit-text p {
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(113, 113, 113);
+}
+
+.facilities {
+  padding-block: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.facilities h1 {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: rgb(237, 33, 94);
+}
+.facilities .pp {
+  text-align: center;
+  width: 669px;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(101, 100, 100);
+}
+.facilities .facilities-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 50px;
+  gap: 30px;
+  width: 100%;
+}
+.facilities .facilities-container .facilities-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 344px;
+}
+.facilities .facilities-container .facilities-card h3 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.facilities .facilities-container .facilities-card p {
+  font-weight: 200;
+  font-size: 15px;
+  color: rgb(113, 113, 113);
+}
+.facilities .facilities-container .facilities-card .button {
+  margin-top: 40px;
+  background-color: #ffffff;
+  height: 72px;
+  border: 1px solid #ed215e;
+  border-radius: 8px;
+  width: 168px;
+  height: 56px;
+  padding: 16px 32px 16px 39px;
+  color: #ed215e;
+}
+
+.know {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+.know h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+  color: rgb(237, 33, 94);
+}
+.know .know-p {
+  text-align: center;
+  width: 669px;
+  padding-bottom: 60px;
+}
+.know .text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: 1100px;
+}
+.know .text-container .first .heading {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.know .text-container .first .heading h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.know .text-container .first p {
+  font-size: 18px;
+  color: rgb(113, 113, 113);
+  margin-bottom: 30px;
+}
+.know .text-container .first .mini-head h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.know .text-container .first .icons {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.know .text-container .first .icons .icon-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.know .text-container .first .icons .icon-container .icon-text h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.know .text-container .first .icons .icon-container .icon-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.testimonials {
+  background-color: rgb(237, 33, 94);
+  height: 696px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonials h1 {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  font-weight: 400;
+  padding-block: 50px;
+}
+.testimonials .text-containers {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+.testimonials .text-containers .test-texts .text {
+  display: flex;
+  align-items: flex-start;
+  width: 522px;
+}
+.testimonials .text-containers .test-texts .text p {
+  color: white;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.testimonials .text-containers .test-texts .kathy {
+  margin-top: 30px;
+  margin-left: 95px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.insurance {
+  padding-inline: 100px;
+}
+.insurance .insurance-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+  padding-block: 200px;
+  width: 100%;
+}
+.insurance .insurance-container .text-insure {
+  width: 416px;
+}
+.insurance .insurance-container .text-insure h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: rgb(237, 33, 94);
+}
+.insurance .insurance-container .text-insure p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.health {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.health .health-text {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("/static/img/health-bg.png");
+  height: 299px;
+}
+.health .health-text .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.health .health-text .text h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #ed215e;
+}
+.health .health-text .text .attention {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+.health .health-text .button {
+  background-color: #ed215e;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.health .health-text .button a {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  width: 100%;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+}
+.footer .footer-container .logo {
+  width: 304px;
+}
+.footer .footer-container .logo p {
+  margin-top: 30px;
+  color: rgb(150, 150, 150);
+  font-size: 18px;
+  width: 290px;
+}
+.footer .footer-container .footer-nav {
+  width: 304px;
+  height: 306px;
+}
+.footer .footer-container .footer-nav h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.footer .footer-container .footer-nav nav ul li {
+  margin-bottom: 20px;
+}
+.footer .footer-container .footer-nav nav ul li a {
+  color: rgb(150, 150, 150);
+}
+.footer .footer-container .location {
+  width: 304px;
+}
+.footer .footer-container .location h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.footer .footer-container .location h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .footer-container .location p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+  margin-bottom: 20px;
+}
+.footer .footer-container .contacts {
+  width: 304px;
+}
+.footer .footer-container .contacts h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .footer-container .contacts p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+  margin-bottom: 20px;
+}/*# sourceMappingURL=urgent.css.map */
