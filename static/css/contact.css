@@ -1,0 +1,42 @@
+.first-section.contact {
+  background-image: radial-gradient(rgba(52, 52, 52, 0.56), rgba(52, 52, 52, 0.56)), url(/static/img/contact-image.jpg);
+  position: relative;
+}
+.first-section.contact .hero-card {
+  background-color: #FFF6F9;
+  position: absolute;
+  left: 15rem;
+  top: 30rem;
+}
+.first-section.contact .hero-card p {
+  width: 600px;
+  padding: 1rem;
+  color: #595959;
+  font-size: 16px;
+  text-align: left;
+}
+.first-section.contact .hero h1 {
+  width: 700px;
+  text-align: center;
+}
+
+.contact-us-container {
+  padding: 80px 120px;
+  display: flex;
+  gap: 1rem;
+}
+.contact-us-container h4 {
+  color: #ED215E;
+  font-weight: 600;
+  font-size: 30px;
+  padding-bottom: 1rem;
+}
+.contact-us-container h5 {
+  font-weight: 600;
+  font-size: 20px;
+  width: 430px;
+  padding-bottom: 1rem;
+}
+.contact-us-container p {
+  color: #595959;
+}/*# sourceMappingURL=contact.css.map */

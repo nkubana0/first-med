@@ -1,0 +1,55 @@
+.first-section.contact{
+    background-image: radial-gradient(rgba(52, 52, 52, 0.56), rgba(52, 52, 52, 0.56)), url(/static/img/contact-image.jpg);
+    position: relative;
+
+    .hero-card{
+        background-color: #FFF6F9;
+        position: absolute;
+        left: 15rem;
+        top: 30rem;
+        
+
+        
+
+        p{
+            width: 600px;
+            padding: 1rem;
+            color: #595959;
+            font-size: 16px;
+            text-align: left;
+            
+        }
+    }
+
+    .hero h1{
+        width: 700px;
+        text-align: center;
+    }
+}
+
+
+
+.contact-us-container{
+    padding: 80px 120px;
+    display: flex;
+    gap: 1rem;
+
+    h4{
+        color: #ED215E;
+        font-weight: 600;
+        font-size: 30px;
+        padding-bottom: 1rem;
+       
+    }
+
+    h5{
+        font-weight: 600;
+        font-size: 20px;
+        width: 430px;
+        padding-bottom: 1rem;
+    }
+
+    p{
+      color: #595959;
+    }
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width: 500px) {
+    .container {
+      padding-inline: 10px;
+    }
+    header {
+        .desktop-nav {
+            .logo {
+                width: 100%;
+            }
+            .navigation {
+                display: none;
+            }
+        }
+    }
+    .first-section.meet-team {
+        p.team-description {
+          width: 300px;
+        }
+      }
+    .medical-personel {
+        .personel-container {
+            padding-inline: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .footer {
+        width: 100%;
+        padding-inline: 20px;
+        .footer-container {
+          width: 100%;
+          flex-direction: column;
+          gap: 10px;
+    
+          .footer-nav {
+            height: 400px;
+          }
+        }
+      }
+    }

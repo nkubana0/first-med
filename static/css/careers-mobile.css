@@ -1,0 +1,83 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-inline: 10px;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-section header {
+    width: 100%;
+  }
+  .first-section header .desktop-nav .logo {
+    width: 100%;
+  }
+  .first-section header .desktop-nav .navigation {
+    display: none;
+  }
+  .first-section .hero {
+    width: 90%;
+    text-align: center;
+  }
+  .first-section .hero p {
+    width: 100%;
+  }
+  .jobs {
+    width: 100%;
+  }
+  .jobs .jobs-container {
+    padding: 0;
+    width: 100%;
+  }
+  .jobs .jobs-container h2 {
+    text-align: center;
+    padding-block: 20px;
+  }
+  .jobs .jobs-container .job-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .jobs .jobs-container .job-card .job-description {
+    width: 100%;
+  }
+  .jobs .jobs-container .job-card .job-description p {
+    width: 95%;
+    font-size: smaller;
+  }
+  .jobs .jobs-container .job-card .job-description .icons {
+    display: flex;
+    padding-block: 20px;
+    gap: 10px;
+  }
+  .jobs .jobs-container .job-card .job-description .icons p {
+    font-weight: 300;
+    font-size: 12px;
+  }
+  .jobs .jobs-container .job-card .apply {
+    display: flex;
+    justify-content: flex-start;
+    padding-inline: 20px;
+  }
+  .contact {
+    width: 100%;
+  }
+  .contact .contact-container h3 {
+    text-align: center;
+  }
+  .footer {
+    width: 100%;
+    padding-inline: 20px;
+  }
+  .footer .footer-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer-container .footer-nav {
+    height: 400px;
+  }
+}/*# sourceMappingURL=careers-mobile.css.map */

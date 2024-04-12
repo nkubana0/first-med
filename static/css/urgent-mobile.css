@@ -1,0 +1,210 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-inline: 0;
+  }
+  header {
+    width: 100%;
+  }
+  header .navigation {
+    display: none;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-inline: 20px;
+  }
+  .hero .logo img {
+    width: 100%;
+  }
+  .hero .text {
+    width: 100%;
+  }
+  .hero .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+  .visit-us {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+  }
+  .visit-us .visit-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .visit-us .visit-container .visit-pic img {
+    width: 100%;
+  }
+  .visit-us .visit-container .visit-text {
+    width: 100%;
+    border-left: 3px solid rgb(237, 33, 94);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+  .visit-us .visit-container .visit-text h2 {
+    padding-left: 15px;
+    font-size: 18px;
+  }
+  .visit-us .visit-container .visit-text p {
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(113, 113, 113);
+  }
+  .facilities {
+    width: 100%;
+  }
+  .facilities h1 {
+    font-size: 32px;
+  }
+  .facilities .pp {
+    width: 100%;
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  .facilities .facilities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .facilities .facilities-container .facilities-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .facilities .facilities-container .facilities-card .image img {
+    width: 300px;
+  }
+  .know {
+    width: 100%;
+  }
+  .know h1 {
+    font-size: 32px;
+  }
+  .know .know-p {
+    width: 320px;
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+  }
+  .know .text-container {
+    width: 320px;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .know .text-container .first {
+    width: 320px;
+  }
+  .know .text-container .first .heading h3 {
+    font-size: 19px;
+  }
+  .know .text-container .first .text {
+    width: 300px;
+    font-size: 16px;
+  }
+  .know .text-container .first .mini-head {
+    width: 300px;
+    font-size: 16px;
+  }
+  .know .text-container .first .icons {
+    width: 320px;
+  }
+  .know .text-container .first .icons .icon-container {
+    width: 300px;
+    gap: 20px;
+  }
+  .testimonials {
+    width: 100%;
+    height: 100vh;
+  }
+  .testimonials h1 {
+    font-size: 32px;
+  }
+  .testimonials .text-containers {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+  }
+  .testimonials .text-containers .test-texts {
+    width: 320px;
+  }
+  .testimonials .text-containers .test-texts .text {
+    width: 300px;
+    font-size: 18px;
+  }
+  .insurance {
+    width: 100%;
+    padding-inline: 0;
+  }
+  .insurance .insurance-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .insurance .insurance-container .text-insure {
+    width: 100%;
+    margin-left: 20px;
+  }
+  .insurance .insurance-container .text-insure h1 {
+    font-size: 32px;
+  }
+  .insurance .insurance-container .text-insure p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .insurance .insurance-container .insure-pic img {
+    width: 100%;
+  }
+  .health {
+    width: 100%;
+    padding-inline: 20px;
+    background-image: url("/static/img/health-bg.png");
+  }
+  .health .health-text {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-image: url("/firstmed-front-end/static/img/health-bg.png");
+    background-size: contain;
+    height: 372px;
+  }
+  .health .health-text .text h1 {
+    font-size: 32px;
+    padding-bottom: 16px;
+  }
+  .health .health-text .attention {
+    width: 100%;
+  }
+  .health .health-text .attention img {
+    width: 20px;
+    height: 20px;
+  }
+  .health .health-text .attention p {
+    font-size: 16px;
+  }
+  .footer {
+    width: 100%;
+    padding-inline: 20px;
+  }
+  .footer .footer-container {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer-container .footer-nav {
+    height: 400px;
+  }
+}/*# sourceMappingURL=urgent-mobile.css.map */

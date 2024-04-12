@@ -1,0 +1,298 @@
+.first-section.meet-team {
+  background-image: radial-gradient(
+      rgba(52, 52, 52, 0.56),
+      rgba(52, 52, 52, 0.56)
+    ),
+    url(/static/img/meetteam.jpg);
+  p.team-description {
+    width: 700px;
+  }
+}
+.container {
+    padding-inline: 100px;
+    padding-block: 20px;
+}
+.medical-personel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        font-size: 48px;
+        font-weight: 500;
+        text-align: center;
+        color: rgba(237, 33, 94, 1);
+        padding-block: 40px;
+    }
+    .personel-container {
+        padding-inline: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        padding-bottom: 50px;
+        .personel-card {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/doctor-1.jpg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-2 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 22.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-3 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 21.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-4 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 23.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-5 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 24.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-6 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 27.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-7 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 26.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+        .personel-card-8 {
+            width: 300px;
+            height: 448px;
+            background-image: url("/static/img/Component\ 25.png");
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+
+            .text-container {
+                position: relative;
+                top: 334px;
+                width: 300px;
+                height: 114px;
+                background-color: rgba(255, 242, 246, 1);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-left: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: rgba(237, 33, 94, 1);
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

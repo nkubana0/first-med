@@ -1,0 +1,90 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-inline: 10px;
+  }
+  .first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  header {
+    width: 100%;
+    .desktop-nav {
+      .logo {
+        width: 100%;
+      }
+      .navigation {
+        display: none;
+      }
+    }
+  }
+  .hero {
+    width: 90%;
+    text-align: center;
+    p{
+        width: 100%;
+    }
+  }
+}
+  .jobs {
+    width: 100%;
+    .jobs-container {
+        padding: 0;
+        width: 100%;
+        h2 {
+            text-align: center;
+            padding-block: 20px;
+        }
+        .job-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+
+            .job-description {
+                width: 100%;
+                p {
+                    width: 95%;
+                    font-size: smaller;
+                }
+                .icons {
+                    display: flex;
+                    padding-block: 20px;
+                    gap: 10px;
+
+                    p {
+                        font-weight: 300;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .apply {
+                display: flex;
+                justify-content: flex-start;
+                padding-inline: 20px;
+            }
+        }
+    }
+  }
+  .contact {
+    width: 100%;
+    .contact-container {
+        h3 {
+            text-align: center;
+        }
+    }
+  }
+  .footer {
+    width: 100%;
+    padding-inline: 20px;
+    .footer-container {
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+
+      .footer-nav {
+        height: 400px;
+      }
+    }
+  }
+}

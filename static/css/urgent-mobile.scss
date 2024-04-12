@@ -1,0 +1,228 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    padding-inline: 0;
+  }
+  header {
+    width: 100%;
+    .navigation {
+      display: none;
+    }
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-inline: 20px;
+    .logo {
+      img {
+        width: 100%;
+      }
+    }
+    .text {
+      width: 100%;
+    }
+    .buttons {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  .visit-us {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    .visit-container {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .visit-pic {
+        img {
+          width: 100%;
+        }
+      }
+      .visit-text {
+        width: 100%;
+        border-left: 3px solid rgba(237, 33, 94, 1);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25px;
+        margin-top: 20px;
+
+        h2 {
+          padding-left: 15px;
+          font-size: 18px;
+        }
+        p {
+          padding-left: 15px;
+          font-weight: 300;
+          font-size: 16px;
+          color: rgba(113, 113, 113, 1);
+        }
+      }
+    }
+  }
+  .facilities {
+    width: 100%;
+    h1 {
+      font-size: 32px;
+    }
+    .pp {
+      width: 100%;
+      font-size: 14px;
+      color: black;
+      font-weight: 400;
+    }
+    .facilities-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+
+      .facilities-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: 20px;
+        .image {
+          img {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+  .know {
+    width: 100%;
+    h1 {
+      font-size: 32px;
+    }
+    .know-p {
+      width: 320px;
+      font-size: 18px;
+      color: black;
+      font-weight: 400;
+    }
+    .text-container {
+      width: 320px;
+      flex-direction: column;
+      margin-left: 20px;
+
+      .first {
+        width: 320px;
+        .heading {
+          h3 {
+            font-size: 19px;
+          }
+        }
+        .text {
+          width: 300px;
+          font-size: 16px;
+        }
+        .mini-head {
+          width: 300px;
+          font-size: 16px;
+        }
+        .icons {
+          width: 320px;
+          .icon-container {
+            width: 300px;
+            gap: 20px;
+          }
+        }
+      }
+    }
+  }
+  .testimonials {
+    width: 100%;
+    height: 100vh;
+    h1 {
+      font-size: 32px;
+    }
+    .text-containers {
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+
+      .test-texts {
+        width: 320px;
+        .text {
+          width: 300px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .insurance {
+    width: 100%;
+    padding-inline: 0;
+    .insurance-container {
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 100%;
+      .text-insure {
+        width: 100%;
+        margin-left: 20px;
+        h1 {
+          font-size: 32px;
+        }
+        p {
+          width: 100%;
+          font-size: 16px;
+        }
+      }
+      .insure-pic {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .health {
+    width: 100%;
+    padding-inline: 20px;
+    background-image: url("/static/img/health-bg.png");
+    .health-text {
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+      background-image: url("/firstmed-front-end/static/img/health-bg.png");
+      background-size: contain;
+      height: 372px;
+      .text {
+        h1 {
+          font-size: 32px;
+          padding-bottom: 16px;
+        }
+      }
+      .attention {
+        width: 100%;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .footer {
+    width: 100%;
+    padding-inline: 20px;
+    .footer-container {
+      width: 100%;
+      flex-direction: column;
+      gap: 10px;
+
+      .footer-nav {
+        height: 400px;
+      }
+    }
+  }
+}

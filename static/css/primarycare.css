@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .desktop-nav {
+  display: flex;
+  gap: 40px;
+  padding-inline: 40px;
+  align-items: center;
+  justify-content: center;
+  padding-block: 20px;
+}
+header ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-around;
+}
+header ul a {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+}
+header .mobile-nav {
+  display: none;
+  justify-content: space-between;
+  padding-inline: 40px;
+}
+header .mobile-nav .menu-icon img {
+  border: 1px solid #f5f5f7;
+  border-radius: 90px;
+  padding: 10px;
+}
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero .pictures {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  width: 800px;
+  margin-bottom: 1rem;
+}
+.hero .buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.hero .buttons .second-btn {
+  background-color: #fff;
+  color: #ed215e;
+  border: 1px solid #ed215e;
+}
+.hero .buttons a {
+  width: 400px;
+  height: 70px;
+  background-color: #ed215e;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-right: 100px;
+  padding-block: 200px;
+}
+.facilities .first-row {
+  background-color: #fff7f9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+.facilities .first-row h2 {
+  color: #ed215e;
+  font-weight: 500;
+  font-size: 40px;
+  padding-bottom: 1rem;
+  padding-left: 50px;
+}
+.facilities .first-row p {
+  width: 450px;
+  padding-left: 50px;
+}
+.facilities .second-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.facilities .second-row h3 {
+  font-weight: 500;
+}
+.facilities .second-row p {
+  padding-bottom: 2rem;
+}
+.facilities .second-row a {
+  color: #ed215e;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: 1px solid #ed215e;
+}
+
+.services-container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 8rem;
+}
+.services-container h3 {
+  font-weight: 400;
+  font-size: 30px;
+  color: #ed215e;
+}
+.services-container .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-top: 2rem;
+}
+.services-container .grid p {
+  width: 200px;
+  padding-bottom: 2rem;
+}
+.services-container .grid .container {
+  border-right: 1px solid #ebebeb;
+}
+
+.insurance {
+  padding-inline: 100px;
+}
+.insurance .insurance-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 140px;
+  padding-block: 200px;
+  width: 100%;
+}
+.insurance .insurance-container .text-insure {
+  width: 416px;
+}
+.insurance .insurance-container .text-insure h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: rgb(237, 33, 94);
+}
+.insurance .insurance-container .text-insure p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.health {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.health .health-text {
+  width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("/static/img/health-bg.png");
+  height: 299px;
+}
+.health .health-text .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.health .health-text .text h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #ed215e;
+}
+.health .health-text .text .attention {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+.health .health-text .button {
+  background-color: #ed215e;
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.health .health-text .button a {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  width: 100%;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: center;
+  width: 1100px;
+}
+.footer .footer-container .logo {
+  width: 304px;
+}
+.footer .footer-container .logo p {
+  margin-top: 30px;
+  color: rgb(150, 150, 150);
+  font-size: 18px;
+  width: 290px;
+}
+.footer .footer-container .footer-nav {
+  width: 304px;
+  height: 306px;
+}
+.footer .footer-container .footer-nav h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.footer .footer-container .footer-nav nav ul li {
+  margin-bottom: 20px;
+}
+.footer .footer-container .footer-nav nav ul li a {
+  color: rgb(150, 150, 150);
+}
+.footer .footer-container .location {
+  width: 304px;
+}
+.footer .footer-container .location h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.footer .footer-container .location h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .footer-container .location p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+  margin-bottom: 20px;
+}
+.footer .footer-container .contacts {
+  width: 304px;
+}
+.footer .footer-container .contacts h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer .footer-container .contacts p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(150, 150, 150);
+  margin-bottom: 20px;
+}
+
+/*media queries */
+@media screen and (max-width: 974px) {
+  header .mobile-nav {
+    display: flex;
+    padding-block: 40px;
+  }
+  header .desktop-nav {
+    display: none;
+  }
+  .hero .pictures {
+    flex-direction: column;
+  }
+  .hero p {
+    width: 400px;
+  }
+  .hero .buttons {
+    flex-direction: column;
+  }
+  .hero .buttons a {
+    width: 300px;
+    padding-inline: 2rem;
+  }
+  .facilities {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .facilities .first-row {
+    width: 100%;
+  }
+  .services-container .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .insurance-container {
+    flex-direction: column;
+  }
+  .partner-container {
+    flex-direction: column;
+  }
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}/*# sourceMappingURL=primarycare.css.map */

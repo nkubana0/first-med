@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:'Poppins', sans-serif ;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.first-section{
+    background-image: radial-gradient(rgba(52, 52, 52, 0.56), rgba(52, 52, 52, 0.5)),url(/static/img/careers-hero.jpg);
+    
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .desktop-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px 40px;
+
+        ul{
+            display: flex;
+            gap: 1rem;
+            
+
+            a{
+                color: white;
+
+            }
+        }
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 80vh;
+        gap: 1rem;
+
+        h1{
+            color: #fff;
+            font-size: 40px;
+        }
+
+        p{
+            color: #fff;
+            width: 350px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        a{
+            margin-top: 1rem;
+            color: #fff;
+            background-color: #ED215E;
+            width: 200px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+        }
+    }
+}
+
+.jobs-container{
+    padding: 80px 120px;
+
+    h2{
+        color: #ED215E;
+        font-weight: 400;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .job-card{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2rem;
+        border-top: 1px solid #DDDDDD;
+        padding-bottom: 2rem;
+        
+    }
+    .job-description{
+        padding-left: 1rem;
+        h3{
+            font-weight: 500;
+            padding-bottom: 1rem;
+            
+        }
+
+        p{
+            width: 700px;
+            color: #606060;
+            
+        }
+
+        .location,
+        .time{
+            display: flex;
+            gap: 1rem;
+
+            p{
+                color: black;
+                font-weight: 500;
+            }
+        }
+
+        
+    }
+
+    .apply{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+
+        a{
+            color: #ED215E;
+        }
+    }
+
+
+}
+
+.contact{
+    background-color: #FFF7F9;
+    
+
+    .contact-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+        padding-block: 80px;
+
+        h3{
+            color: #ED215E;
+            font-size: 40px;
+            font-weight: 400;
+        }
+
+        p{
+            text-align: center;
+            padding-bottom: 2rem;
+        }
+
+        a{
+            color: #ED215E;
+            border: 1px solid #ED215E;
+            border-radius: 8px;
+            padding: 15px 30px;
+            display: flex;
+            gap: 0.8rem;
+        }
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    width: 100%;
+  
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      width: 1100px;
+      
+      .logo {
+      width: 304px;
+  
+      p {
+        margin-top: 30px;
+        color: rgba(150, 150, 150, 1);
+        font-size: 18px;
+        width: 290px;
+      }
+    }
+    .footer-nav {
+      width: 304px;
+      height: 306px;
+  
+      h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
+  
+      nav {
+        ul {
+          li {
+            margin-bottom: 20px;
+  
+            a {
+              color: rgba(150, 150, 150, 1);
+            }
+          }
+        }
+      }
+    }
+    .location {
+      width: 304px;
+      h2 {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(150, 150, 150, 1);
+        margin-bottom: 20px;
+      }
+    }
+    .contacts {
+      width: 304px;
+      h2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(150, 150, 150, 1);
+        margin-bottom: 20px;
+      }
+    }
+    
+  }
+  }
